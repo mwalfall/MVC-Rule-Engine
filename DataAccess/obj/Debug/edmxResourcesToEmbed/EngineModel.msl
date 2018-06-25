@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DSNY_FleetModelStoreContainer" CdmEntityContainer="DSNY_EngineEntities">
+    <EntitySetMapping Name="Rules">
+      <EntityTypeMapping TypeName="DSNY_FleetModel.Rule">
+        <MappingFragment StoreEntitySet="tblRule">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="RuleSetId" ColumnName="RuleSetId" />
+          <ScalarProperty Name="RuleType" ColumnName="RuleType" />
+          <ScalarProperty Name="LeftPropertyName" ColumnName="LeftPropertyName" />
+          <ScalarProperty Name="ComparisonOperator" ColumnName="ComparisonOperator" />
+          <ScalarProperty Name="RightPropertyName" ColumnName="RightPropertyName" />
+          <ScalarProperty Name="ExpectedValue" ColumnName="ExpectedValue" />
+          <ScalarProperty Name="BooleanConnector" ColumnName="BooleanConnector" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RuleSets">
+      <EntityTypeMapping TypeName="DSNY_FleetModel.RuleSet">
+        <MappingFragment StoreEntitySet="tblRuleSet">
+          <ScalarProperty Name="RuleStatementId" ColumnName="RuleStatementId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Statement" ColumnName="Statement" />
+          <ScalarProperty Name="Operation" ColumnName="Operation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RuleStatements">
+      <EntityTypeMapping TypeName="DSNY_FleetModel.RuleStatement">
+        <MappingFragment StoreEntitySet="tblRuleStatement">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TransSpecId" ColumnName="TransSpecId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="RsBracketNo" ColumnName="RsBracketNo" />
+          <ScalarProperty Name="RuleConnectors" ColumnName="RuleConnectors" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StatusTransitions">
+      <EntityTypeMapping TypeName="DSNY_FleetModel.StatusTransition">
+        <MappingFragment StoreEntitySet="tblStatusTransition">
+          <ScalarProperty Name="VehicleStatusId" ColumnName="VehicleStatusId" />
+          <ScalarProperty Name="OrderNo" ColumnName="OrderNo" />
+          <ScalarProperty Name="TransitionSpecificationId" ColumnName="TransitionSpecificationId" />
+          <ScalarProperty Name="VehicleStatusTransitionId" ColumnName="VehicleStatusTransitionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TransitionSpecifications">
+      <EntityTypeMapping TypeName="DSNY_FleetModel.TransitionSpecification">
+        <MappingFragment StoreEntitySet="tblTransitionSpecification">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="StatusTransitionId" ColumnName="StatusTransitionId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="RsBracketNo" ColumnName="RsBracketNo" />
+          <ScalarProperty Name="RuleConnectors" ColumnName="RuleConnectors" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

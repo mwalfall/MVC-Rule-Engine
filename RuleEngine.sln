@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuleEngine", "RuleEngine\RuleEngine.csproj", "{CF85E926-B53C-4ED5-AD6F-CB78F1B0518B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuleEngine.Test", "RuleEngine.Test\RuleEngine.Test.csproj", "{1BA69E30-202D-4558-9D70-389C2E62426F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{94C9B25A-FCC9-4CD1-B2B2-BCF02B006736}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		RuleEngine.vsd = RuleEngine.vsd
+		RuleEngine.vsmdi = RuleEngine.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "StatusTransitionModel", "..\..\FleetPrototypes\RuleEnginePrototypeLocal\StatusTransitionModel\StatusTransitionModel.modelproj", "{FB2303C1-F26F-44E5-A4E2-8032D0B8F0C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RulesDataAccess", "DataAccess\RulesDataAccess.csproj", "{B1F0F8CE-EEC7-42A8-B0E2-BF70EE779F17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RulesRepository", "Repository\RulesRepository.csproj", "{0C94FBB8-9B0A-480A-9DCA-0CB9543E7A70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "..\..\FleetPrototypes\RuleEnginePrototypeLocal\Domain\Domain.csproj", "{2ED360A3-0FBE-4C01-B2E9-2B66FFDE062E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rules", "Rules\Rules.csproj", "{6C90FDDE-9C1F-4A23-8A86-7DE97321AB16}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = RuleEngine.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF85E926-B53C-4ED5-AD6F-CB78F1B0518B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF85E926-B53C-4ED5-AD6F-CB78F1B0518B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF85E926-B53C-4ED5-AD6F-CB78F1B0518B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF85E926-B53C-4ED5-AD6F-CB78F1B0518B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BA69E30-202D-4558-9D70-389C2E62426F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA69E30-202D-4558-9D70-389C2E62426F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BA69E30-202D-4558-9D70-389C2E62426F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA69E30-202D-4558-9D70-389C2E62426F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB2303C1-F26F-44E5-A4E2-8032D0B8F0C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB2303C1-F26F-44E5-A4E2-8032D0B8F0C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB2303C1-F26F-44E5-A4E2-8032D0B8F0C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB2303C1-F26F-44E5-A4E2-8032D0B8F0C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1F0F8CE-EEC7-42A8-B0E2-BF70EE779F17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1F0F8CE-EEC7-42A8-B0E2-BF70EE779F17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1F0F8CE-EEC7-42A8-B0E2-BF70EE779F17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1F0F8CE-EEC7-42A8-B0E2-BF70EE779F17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C94FBB8-9B0A-480A-9DCA-0CB9543E7A70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C94FBB8-9B0A-480A-9DCA-0CB9543E7A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C94FBB8-9B0A-480A-9DCA-0CB9543E7A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C94FBB8-9B0A-480A-9DCA-0CB9543E7A70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ED360A3-0FBE-4C01-B2E9-2B66FFDE062E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED360A3-0FBE-4C01-B2E9-2B66FFDE062E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED360A3-0FBE-4C01-B2E9-2B66FFDE062E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED360A3-0FBE-4C01-B2E9-2B66FFDE062E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C90FDDE-9C1F-4A23-8A86-7DE97321AB16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C90FDDE-9C1F-4A23-8A86-7DE97321AB16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C90FDDE-9C1F-4A23-8A86-7DE97321AB16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C90FDDE-9C1F-4A23-8A86-7DE97321AB16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

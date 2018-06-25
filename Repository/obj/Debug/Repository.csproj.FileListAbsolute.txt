@@ -1,0 +1,7 @@
+C:\Fleet-Management-RuleEngine\RuleEngine\Repository\bin\Debug\Repository.dll
+C:\Fleet-Management-RuleEngine\RuleEngine\Repository\bin\Debug\Repository.pdb
+C:\Fleet-Management-RuleEngine\RuleEngine\Repository\obj\Debug\ResolveAssemblyReference.cache
+C:\Fleet-Management-RuleEngine\RuleEngine\Repository\obj\Debug\Repository.dll
+C:\Fleet-Management-RuleEngine\RuleEngine\Repository\obj\Debug\Repository.pdb
+C:\Fleet-Management-RuleEngine\RuleEngine\Repository\bin\Debug\RuleEngine.dll
+C:\Fleet-Management-RuleEngine\RuleEngine\Repository\bin\Debug\RuleEngine.pdb

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f36568b9-7c9f-4ffc-b90f-43308b4b97ad" name="mwalfall@NETOPS-11465 2012-10-03 16:44:47" runUser="SSAD\mwalfall" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b9808095-73a6-495e-bb44-f42e87e9e984">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="mwalfall_NETOPS-11465 2012-10-03 16_44_47">
+      <DeploymentItem filename="C:\Fleet-Management-RuleEngine\RuleEngine\DataAccess\bin\Release\RulesDataAccess.dll" />
+      <DeploymentItem filename="C:\Fleet-Management-RuleEngine\RuleEngine\Repository\bin\Release\RulesRepository.dll" />
+      <DeploymentItem filename="C:\FleetPrototypes\RuleEnginePrototypeLocal\Domain\bin\Release\Domain.dll" />
+      <DeploymentItem filename="C:\Fleet-Management-RuleEngine\RuleEngine\RuleEngine\bin\Release\RuleEngine.dll" />
+      <DeploymentItem filename="C:\Fleet-Management-RuleEngine\RuleEngine\Rules\bin\Release\Rules.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-03T16:44:47.5953836-04:00" queuing="2012-10-03T16:44:47.6293870-04:00" start="2012-10-03T16:44:47.6443885-04:00" finish="2012-10-03T16:44:48.2834524-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="EagerLoadingTest" storage="c:\fleet-management-ruleengine\ruleengine\ruleengine.test\bin\release\ruleengine.test.dll" id="fb05d6d9-b325-886a-cd47-fdef209aa593">
+      <Execution id="cb2b0146-8102-4216-8ba6-92e610a6f0da" />
+      <TestMethod codeBase="C:/Fleet-Management-RuleEngine/RuleEngine/RuleEngine.Test/bin/Release/RuleEngine.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuleEngine.Test.StatusTransitionTest, RuleEngine.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EagerLoadingTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="fb05d6d9-b325-886a-cd47-fdef209aa593" executionId="cb2b0146-8102-4216-8ba6-92e610a6f0da" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cb2b0146-8102-4216-8ba6-92e610a6f0da" testId="fb05d6d9-b325-886a-cd47-fdef209aa593" testName="EagerLoadingTest" computerName="NETOPS-11465" duration="00:00:00.3585597" startTime="2012-10-03T16:44:47.6733914-04:00" endTime="2012-10-03T16:44:48.2444485-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb2b0146-8102-4216-8ba6-92e610a6f0da">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method RuleEngine.Test.StatusTransitionTest.EagerLoadingTest threw exception: 
+System.NullReferenceException: RuleValidationService object not provided.</Message>
+          <StackTrace>    at RuleEngine.StatusTransition.IsTransitioned() in C:\Fleet-Management-RuleEngine\RuleEngine\RuleEngine\Behavior\StatusTransition.cs:line 12
+   at RuleEngine.Test.StatusTransitionTest.EagerLoadingTest() in C:\Fleet-Management-RuleEngine\RuleEngine\RuleEngine.Test\StatusTransitionTest.cs:line 44
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

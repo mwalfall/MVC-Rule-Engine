@@ -1,0 +1,8 @@
+<Modules>
+  <Module PersistentId="CF85E926-B53C-4ED5-AD6F-CB78F1B0518B" ModuleId="RuleEngine" />
+  <Module PersistentId="1BA69E30-202D-4558-9D70-389C2E62426F" ModuleId="RuleEngine.Test" />
+  <Module PersistentId="B1F0F8CE-EEC7-42A8-B0E2-BF70EE779F17" ModuleId="DataAccess" />
+  <Module PersistentId="0C94FBB8-9B0A-480A-9DCA-0CB9543E7A70" ModuleId="Repository" />
+  <Module PersistentId="2ED360A3-0FBE-4C01-B2E9-2B66FFDE062E" ModuleId="Domain_1" />
+  <Module PersistentId="6C90FDDE-9C1F-4A23-8A86-7DE97321AB16" ModuleId="Rules" />
+</Modules>

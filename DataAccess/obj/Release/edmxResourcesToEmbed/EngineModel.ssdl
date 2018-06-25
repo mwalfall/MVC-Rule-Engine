@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DSNY_FleetModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="DSNY_FleetModelStoreContainer">
+    <EntitySet Name="tblRule" EntityType="DSNY_FleetModel.Store.tblRule" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblRuleSet" EntityType="DSNY_FleetModel.Store.tblRuleSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblRuleStatement" EntityType="DSNY_FleetModel.Store.tblRuleStatement" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblStatusTransition" EntityType="DSNY_FleetModel.Store.tblStatusTransition" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblTransitionSpecification" EntityType="DSNY_FleetModel.Store.tblTransitionSpecification" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_tblRule_tblRuleSet" Association="DSNY_FleetModel.Store.FK_tblRule_tblRuleSet">
+      <End Role="tblRuleSet" EntitySet="tblRuleSet" />
+      <End Role="tblRule" EntitySet="tblRule" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblRuleSet_tblRuleStatement" Association="DSNY_FleetModel.Store.FK_tblRuleSet_tblRuleStatement">
+      <End Role="tblRuleStatement" EntitySet="tblRuleStatement" />
+      <End Role="tblRuleSet" EntitySet="tblRuleSet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblRuleStatement_tblTransitionSpecification" Association="DSNY_FleetModel.Store.FK_tblRuleStatement_tblTransitionSpecification">
+      <End Role="tblTransitionSpecification" EntitySet="tblTransitionSpecification" />
+      <End Role="tblRuleStatement" EntitySet="tblRuleStatement" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblStatusTransition_tblTranSpec" Association="DSNY_FleetModel.Store.FK_tblStatusTransition_tblTranSpec">
+      <End Role="tblTransitionSpecification" EntitySet="tblTransitionSpecification" />
+      <End Role="tblStatusTransition" EntitySet="tblStatusTransition" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="tblRule">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="RuleSetId" Type="int" Nullable="false" />
+    <Property Name="RuleType" Type="int" Nullable="false" />
+    <Property Name="LeftPropertyName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ComparisonOperator" Type="nvarchar" MaxLength="50" />
+    <Property Name="RightPropertyName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ExpectedValue" Type="nvarchar" MaxLength="50" />
+    <Property Name="BooleanConnector" Type="int" />
+  </EntityType>
+  <EntityType Name="tblRuleSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="RuleStatementId" Type="int" Nullable="false" />
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+    <Property Name="Statement" Type="nvarchar(max)" />
+    <Property Name="Operation" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblRuleStatement">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TransSpecId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+    <Property Name="RsBracketNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="RuleConnectors" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblStatusTransition">
+    <Key>
+      <PropertyRef Name="VehicleStatusId" />
+      <PropertyRef Name="OrderNo" />
+    </Key>
+    <Property Name="VehicleStatusId" Type="int" Nullable="false" />
+    <Property Name="OrderNo" Type="int" Nullable="false" />
+    <Property Name="TransitionSpecificationId" Type="int" Nullable="false" />
+    <Property Name="VehicleStatusTransitionId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblTransitionSpecification">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="StatusTransitionId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+    <Property Name="RsBracketNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="RuleConnectors" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_tblRule_tblRuleSet">
+    <End Role="tblRuleSet" Type="DSNY_FleetModel.Store.tblRuleSet" Multiplicity="1" />
+    <End Role="tblRule" Type="DSNY_FleetModel.Store.tblRule" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblRuleSet">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="tblRule">
+        <PropertyRef Name="RuleSetId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblRuleSet_tblRuleStatement">
+    <End Role="tblRuleStatement" Type="DSNY_FleetModel.Store.tblRuleStatement" Multiplicity="1" />
+    <End Role="tblRuleSet" Type="DSNY_FleetModel.Store.tblRuleSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblRuleStatement">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="tblRuleSet">
+        <PropertyRef Name="RuleStatementId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblRuleStatement_tblTransitionSpecification">
+    <End Role="tblTransitionSpecification" Type="DSNY_FleetModel.Store.tblTransitionSpecification" Multiplicity="1" />
+    <End Role="tblRuleStatement" Type="DSNY_FleetModel.Store.tblRuleStatement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblTransitionSpecification">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="tblRuleStatement">
+        <PropertyRef Name="TransSpecId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblStatusTransition_tblTranSpec">
+    <End Role="tblTransitionSpecification" Type="DSNY_FleetModel.Store.tblTransitionSpecification" Multiplicity="1" />
+    <End Role="tblStatusTransition" Type="DSNY_FleetModel.Store.tblStatusTransition" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblTransitionSpecification">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="tblStatusTransition">
+        <PropertyRef Name="TransitionSpecificationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

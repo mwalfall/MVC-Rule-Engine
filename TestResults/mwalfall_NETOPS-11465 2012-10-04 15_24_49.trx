@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e321f51c-1dac-4415-85e1-391722469abe" name="mwalfall@NETOPS-11465 2012-10-04 15:24:49" runUser="SSAD\mwalfall" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b9808095-73a6-495e-bb44-f42e87e9e984">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="mwalfall_NETOPS-11465 2012-10-04 15_24_49">
+      <DeploymentItem filename="C:\Fleet-Management-RuleEngine\RuleEngine\DataAccess\bin\Release\RulesDataAccess.dll" />
+      <DeploymentItem filename="C:\Fleet-Management-RuleEngine\RuleEngine\Repository\bin\Release\RulesRepository.dll" />
+      <DeploymentItem filename="C:\FleetPrototypes\RuleEnginePrototypeLocal\Domain\bin\Release\Domain.dll" />
+      <DeploymentItem filename="C:\Fleet-Management-RuleEngine\RuleEngine\RuleEngine\bin\Release\RuleEngine.dll" />
+      <DeploymentItem filename="C:\Fleet-Management-RuleEngine\RuleEngine\Rules\bin\Release\Rules.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-04T15:24:49.3262291-04:00" queuing="2012-10-04T15:24:51.4382291-04:00" start="2012-10-04T15:24:51.5012291-04:00" finish="2012-10-04T15:24:54.3372291-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="EditTest" storage="c:\fleet-management-ruleengine\ruleengine\ruleengine.test\bin\release\ruleengine.test.dll" id="6692c579-6cbf-236e-40c8-687e41ab887f">
+      <Execution id="e53c43a2-d26a-4c32-96ea-50372941c7b1" />
+      <TestMethod codeBase="C:/Fleet-Management-RuleEngine/RuleEngine/RuleEngine.Test/bin/Release/RuleEngine.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuleEngine.Test.ControllerTest, RuleEngine.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EditTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="6692c579-6cbf-236e-40c8-687e41ab887f" executionId="e53c43a2-d26a-4c32-96ea-50372941c7b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e53c43a2-d26a-4c32-96ea-50372941c7b1" testId="6692c579-6cbf-236e-40c8-687e41ab887f" testName="EditTest" computerName="NETOPS-11465" duration="00:00:00.9290553" startTime="2012-10-04T15:24:51.5232291-04:00" endTime="2012-10-04T15:24:52.7972291-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e53c43a2-d26a-4c32-96ea-50372941c7b1">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;True&gt;. Actual:&lt;False&gt;. </Message>
+          <StackTrace>   at RuleEngine.Test.ControllerTest.EditTest() in C:\Fleet-Management-RuleEngine\RuleEngine\RuleEngine.Test\ControllerTest.cs:line 62
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,61 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="CF85E926-B53C-4ED5-AD6F-CB78F1B0518B/d:Operators/f:RuleType.cs" caret="67" fromTop="2" />
+    <File id="1BA69E30-202D-4558-9D70-389C2E62426F/f:EfUnitOfWorkTest.cs" caret="0" fromTop="0" />
+    <File id="B1F0F8CE-EEC7-42A8-B0E2-BF70EE779F17/d:UnitOfWork/f:EfUnitOfWork.cs" caret="0" fromTop="0" />
+    <File id="B1F0F8CE-EEC7-42A8-B0E2-BF70EE779F17/f:EngineModel.Context.cs" caret="1336" fromTop="9" />
+    <File id="B1F0F8CE-EEC7-42A8-B0E2-BF70EE779F17/f:App.Config" caret="516" fromTop="3" />
+    <File id="1BA69E30-202D-4558-9D70-389C2E62426F/f:RuleStatementTest.cs" caret="0" fromTop="0" />
+    <File id="1BA69E30-202D-4558-9D70-389C2E62426F/f:TransitionSpecificationFromDbTest.cs" caret="2046" fromTop="15" />
+    <File id="CF85E926-B53C-4ED5-AD6F-CB78F1B0518B/d:RepositoryInterfaces/f:IRepository.cs" caret="0" fromTop="0" />
+    <File id="2ED360A3-0FBE-4C01-B2E9-2B66FFDE062E/f:VehicleModel.cs" caret="6792" fromTop="24" />
+    <File id="CF85E926-B53C-4ED5-AD6F-CB78F1B0518B/f:VehicleModelProxy.cs" caret="2147" fromTop="52" />
+    <File id="0C94FBB8-9B0A-480A-9DCA-0CB9543E7A70/f:GenericRepository.cs" caret="544" fromTop="18" />
+    <File id="1BA69E30-202D-4558-9D70-389C2E62426F/f:RuleStatementFromDbTest.cs" caret="1632" fromTop="12" />
+    <File id="1BA69E30-202D-4558-9D70-389C2E62426F/f:StatusTransitionTest.cs" caret="1551" fromTop="19" />
+    <File id="B1F0F8CE-EEC7-42A8-B0E2-BF70EE779F17/f:EngineModel.Context.tt" caret="0" fromTop="0" />
+    <File id="1BA69E30-202D-4558-9D70-389C2E62426F/f:RuleValidationServiceFromRepositoryTest.cs" caret="0" fromTop="0" />
+    <File id="2ED360A3-0FBE-4C01-B2E9-2B66FFDE062E/d:RuleEngine/f:ProxyBuilder.cs" caret="46" fromTop="0" />
+    <File id="CF85E926-B53C-4ED5-AD6F-CB78F1B0518B/d:Behavior/f:RuleStatement.cs" caret="1292" fromTop="13" />
+    <File id="CF85E926-B53C-4ED5-AD6F-CB78F1B0518B/d:Behavior/f:TransitionSpecification.cs" caret="1081" fromTop="0" />
+    <File id="CF85E926-B53C-4ED5-AD6F-CB78F1B0518B/f:LogicProcessor.cs" caret="0" fromTop="0" />
+    <File id="1BA69E30-202D-4558-9D70-389C2E62426F/f:RuleServiceTest.cs" caret="1652" fromTop="10" />
+    <File id="CF85E926-B53C-4ED5-AD6F-CB78F1B0518B/d:Operators/f:LogicOperator.cs" caret="573" fromTop="12" />
+    <File id="CF85E926-B53C-4ED5-AD6F-CB78F1B0518B/d:Behavior/f:StatusTransition.cs" caret="459" fromTop="14" />
+    <File id="2ED360A3-0FBE-4C01-B2E9-2B66FFDE062E/d:RuleEngine/f:RuleService.cs" caret="655" fromTop="17" />
+    <File id="6C90FDDE-9C1F-4A23-8A86-7DE97321AB16/f:EvaluationServiceFactory.cs" caret="844" fromTop="6" />
+    <File id="CF85E926-B53C-4ED5-AD6F-CB78F1B0518B/f:StatusTransition.cs" caret="0" fromTop="0" />
+    <File id="2ED360A3-0FBE-4C01-B2E9-2B66FFDE062E/f:Controller.cs" caret="570" fromTop="20" />
+    <File id="1BA69E30-202D-4558-9D70-389C2E62426F/f:RuleValidationServiceTest.cs" caret="2123" fromTop="3" />
+    <File id="CF85E926-B53C-4ED5-AD6F-CB78F1B0518B/f:RuleValidationService.cs" caret="6951" fromTop="23" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="0C94FBB8-9B0A-480A-9DCA-0CB9543E7A70/d:UnitOfWorkInterfaces/f:IUnitOfWork.cs" caret="15" fromTop="1" />
+    <File id="CF85E926-B53C-4ED5-AD6F-CB78F1B0518B/d:RepositoryInterfaces/f:IRepository.cs" caret="124" fromTop="5" />
+    <File id="B1F0F8CE-EEC7-42A8-B0E2-BF70EE779F17/d:UnitOfWork/f:EfUnitOfWork.cs" caret="1336" fromTop="7" />
+    <File id="1BA69E30-202D-4558-9D70-389C2E62426F/f:EfUnitOfWorkTest.cs" caret="1897" fromTop="13" />
+    <File id="CF85E926-B53C-4ED5-AD6F-CB78F1B0518B/d:Operators/f:BoolOperator.cs" caret="13" fromTop="0" />
+    <File id="CF85E926-B53C-4ED5-AD6F-CB78F1B0518B/d:Operators/f:RuleType.cs" caret="24" fromTop="0" />
+    <File id="CF85E926-B53C-4ED5-AD6F-CB78F1B0518B/d:Behavior/f:RuleStatement.cs" caret="788" fromTop="9" />
+    <File id="CF85E926-B53C-4ED5-AD6F-CB78F1B0518B/f:LogicProcessor.cs" caret="417" fromTop="4" />
+    <File id="B1F0F8CE-EEC7-42A8-B0E2-BF70EE779F17/f:App.Config" caret="84" fromTop="3" />
+    <File id="CF85E926-B53C-4ED5-AD6F-CB78F1B0518B/d:Behavior/f:TransitionSpecification.cs" caret="2955" fromTop="20" />
+    <File id="B1F0F8CE-EEC7-42A8-B0E2-BF70EE779F17/f:EngineModel.Context.cs" caret="1336" fromTop="9" />
+    <File id="1BA69E30-202D-4558-9D70-389C2E62426F/f:RuleStatementFromDbTest.cs" caret="1692" fromTop="4" />
+    <File id="1BA69E30-202D-4558-9D70-389C2E62426F/f:RuleStatementTest.cs" caret="9331" fromTop="19" />
+    <File id="1BA69E30-202D-4558-9D70-389C2E62426F/f:TransitionSpecificationFromDbTest.cs" caret="2046" fromTop="15" />
+    <File id="0C94FBB8-9B0A-480A-9DCA-0CB9543E7A70/f:GenericRepository.cs" caret="544" fromTop="18" />
+    <File id="CF85E926-B53C-4ED5-AD6F-CB78F1B0518B/f:VehicleModelProxy.cs" caret="2147" fromTop="52" />
+    <File id="2ED360A3-0FBE-4C01-B2E9-2B66FFDE062E/d:RuleEngine/f:ProxyBuilder.cs" caret="32" fromTop="1" />
+    <File id="2ED360A3-0FBE-4C01-B2E9-2B66FFDE062E/f:Controller.cs" caret="570" fromTop="20" />
+    <File id="1BA69E30-202D-4558-9D70-389C2E62426F/f:StatusTransitionTest.cs" caret="1498" fromTop="18" />
+    <File id="1BA69E30-202D-4558-9D70-389C2E62426F/f:RuleValidationServiceFromRepositoryTest.cs" caret="2286" fromTop="26" />
+    <File id="CF85E926-B53C-4ED5-AD6F-CB78F1B0518B/d:Behavior/f:StatusTransition.cs" caret="90" fromTop="5" />
+    <File id="2ED360A3-0FBE-4C01-B2E9-2B66FFDE062E/d:RuleEngine/f:RuleService.cs" caret="787" fromTop="23" />
+    <File id="6C90FDDE-9C1F-4A23-8A86-7DE97321AB16/f:EvaluationServiceFactory.cs" caret="844" fromTop="6" />
+    <File id="1BA69E30-202D-4558-9D70-389C2E62426F/f:RuleServiceTest.cs" caret="2039" fromTop="20" />
+    <File id="CF85E926-B53C-4ED5-AD6F-CB78F1B0518B/d:Operators/f:LogicOperator.cs" caret="573" fromTop="12" />
+    <File id="1BA69E30-202D-4558-9D70-389C2E62426F/f:RuleValidationServiceTest.cs" caret="2123" fromTop="3" />
+    <File id="CF85E926-B53C-4ED5-AD6F-CB78F1B0518B/f:RuleValidationService.cs" caret="6951" fromTop="23" />
+  </RecentEdits>
+</RecentFiles>

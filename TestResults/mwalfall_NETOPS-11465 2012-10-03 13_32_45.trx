@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a985f688-4e6b-4144-932c-82310d1ef6c7" name="mwalfall@NETOPS-11465 2012-10-03 13:32:45" runUser="SSAD\mwalfall" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b9808095-73a6-495e-bb44-f42e87e9e984">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="mwalfall_NETOPS-11465 2012-10-03 13_32_45">
+      <DeploymentItem filename="C:\FleetPrototypes\RuleEnginePrototypeLocal\Domain\bin\Debug\Domain.dll" />
+      <DeploymentItem filename="C:\Fleet-Management-RuleEngine\RuleEngine\DataAccess\bin\Debug\DataAccess.dll" />
+      <DeploymentItem filename="C:\Fleet-Management-RuleEngine\RuleEngine\Repository\bin\Debug\Repository.dll" />
+      <DeploymentItem filename="C:\Fleet-Management-RuleEngine\RuleEngine\Rules\bin\Debug\Rules.dll" />
+      <DeploymentItem filename="C:\Fleet-Management-RuleEngine\RuleEngine\RuleEngine\bin\Debug\RuleEngine.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-03T13:32:45.9790913-04:00" queuing="2012-10-03T13:32:46.0331021-04:00" start="2012-10-03T13:32:46.0471049-04:00" finish="2012-10-03T13:32:46.3851725-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="IsSatisfiedHasValueTest" storage="c:\fleet-management-ruleengine\ruleengine\ruleengine.test\bin\debug\ruleengine.test.dll" id="a5c8f933-5f7c-3eda-9d95-59f2890b6e7b">
+      <Execution id="366aa86d-86f4-46a5-bd0f-e2ed8646b732" />
+      <TestMethod codeBase="C:/Fleet-Management-RuleEngine/RuleEngine/RuleEngine.Test/bin/Debug/RuleEngine.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuleEngine.Test.RuleValidationServiceTest, RuleEngine.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsSatisfiedHasValueTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a5c8f933-5f7c-3eda-9d95-59f2890b6e7b" executionId="366aa86d-86f4-46a5-bd0f-e2ed8646b732" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="366aa86d-86f4-46a5-bd0f-e2ed8646b732" testId="a5c8f933-5f7c-3eda-9d95-59f2890b6e7b" testName="IsSatisfiedHasValueTest" computerName="NETOPS-11465" duration="00:00:00.0535809" startTime="2012-10-03T13:32:46.0871129-04:00" endTime="2012-10-03T13:32:46.3541663-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="366aa86d-86f4-46a5-bd0f-e2ed8646b732">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;True&gt;. Actual:&lt;False&gt;. </Message>
+          <StackTrace>   at RuleEngine.Test.RuleValidationServiceTest.IsSatisfiedHasValueTest() in C:\Fleet-Management-RuleEngine\RuleEngine\RuleEngine.Test\RuleValidationServiceTest.cs:line 94
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,10 @@
+C:\Fleet-Management-RuleEngine\RuleEngine\DataAccess\bin\Release\RuleEngine.dll
+C:\Fleet-Management-RuleEngine\RuleEngine\DataAccess\bin\Release\RuleEngine.pdb
+C:\Fleet-Management-RuleEngine\RuleEngine\DataAccess\obj\Release\ResolveAssemblyReference.cache
+C:\Fleet-Management-RuleEngine\RuleEngine\DataAccess\bin\Release\RuleDataAccess.dll.config
+C:\Fleet-Management-RuleEngine\RuleEngine\DataAccess\bin\Release\RuleDataAccess.dll
+C:\Fleet-Management-RuleEngine\RuleEngine\DataAccess\bin\Release\RuleDataAccess.pdb
+C:\Fleet-Management-RuleEngine\RuleEngine\DataAccess\bin\Release\RuleRepository.dll
+C:\Fleet-Management-RuleEngine\RuleEngine\DataAccess\bin\Release\RuleRepository.pdb
+C:\Fleet-Management-RuleEngine\RuleEngine\DataAccess\obj\Release\RuleDataAccess.dll
+C:\Fleet-Management-RuleEngine\RuleEngine\DataAccess\obj\Release\RuleDataAccess.pdb
